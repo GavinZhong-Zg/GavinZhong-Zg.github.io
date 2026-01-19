@@ -167,7 +167,6 @@ subtitle:
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub: 
    - 今日事&#44;今日畢
-   - Never put off till tomorrow what you can do today
    - To be or not to be
    - 后来才懂，有些事一旦错过就真的成为了故事
 
@@ -478,13 +477,17 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
+  use: algolia_search
   placeholder:
 
   # Algolia Search
   algolia_search:
     # Number of search results per page
     hitsPerPage: 6
+    labels:
+    input_placeholder: Search for Posts # 搜索框占位符
+    hits_empty: "We didn't find any results for the search: ${query}" # 无结果提示
+    hits_stats: "${hits} results found in ${time} ms" # 统计信息
 
   # Local Search
   local_search:

@@ -104,3 +104,8 @@ deploy:
   type: git
   repo: git@github.com:GavinZhong-Zg/GavinZhong-Zg.github.io.git
   branch: main
+
+algolia:
+  applicationID: 'applicationID'
+  apiKey: 'apiKey'
+  indexName: '...'
