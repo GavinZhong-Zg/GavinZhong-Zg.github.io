@@ -55,6 +55,7 @@ social:
 
 favicon: /img/favicon.png
 
+#头像设置
 avatar:
   img: /img/butterfly-icon.png
   effect: false
@@ -63,7 +64,7 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /image/abc123.jpg
 
 # The banner image of index page
 index_img:
