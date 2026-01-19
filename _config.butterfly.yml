@@ -57,7 +57,7 @@ favicon: /img/favicon.png
 
 #头像设置
 avatar:
-  img: /img/butterfly-icon.png
+  img: /image/384.jpg
   effect: false
 
 # Disable all banner images
@@ -124,7 +124,7 @@ post_meta:
     # Choose: date / relative
     date_format: date
     categories: true
-    tags: false
+    tags: true
     label: true
   post:
     # Choose: left / center
