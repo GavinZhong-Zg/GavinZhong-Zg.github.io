@@ -71,7 +71,7 @@ index_img: /image/abc123.jpg
 
 # The banner image of archive page
 #歸檔頁面的 top_img
-archive_img:
+archive_img: /image/abc123.jpg
 
 # Note: tag page, not tags page
 #tag 子頁面 的 默認 top_img
