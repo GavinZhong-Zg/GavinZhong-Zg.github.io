@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo:
+  logo: /image/384.jpg
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
@@ -30,7 +30,7 @@ menu:
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
   theme: light
-  macStyle: false
+  macStyle: true
   # Code block height limit (unit: px)
   height_limit: false
   word_wrap: false
@@ -552,9 +552,9 @@ comments:
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   # Display comment count in post's top_img
-  count: true
+  count: false
   # Display comment count in Home Page
   card_post_count: true
 
@@ -635,7 +635,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://gavinblog-theta.vercel.app/
   region:
   # Use Twikoo visitor count as the page view count
   visitor: false
