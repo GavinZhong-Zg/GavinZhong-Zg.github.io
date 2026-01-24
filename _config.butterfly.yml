@@ -53,7 +53,8 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+# 用于浏览器标签的图标
+favicon: /image/384.jpg
 
 #头像设置
 avatar:
@@ -1037,7 +1038,7 @@ lazyload:
 pwa:
   enable: false
   manifest:
-  apple_touch_icon:
+  apple_touch_icon: /image/384.jpg
   favicon_32_32:
   favicon_16_16:
   mask_icon:
