@@ -32,14 +32,14 @@ code_blocks:
   theme: light
   macStyle: true
   # Code block height limit (unit: px)
-  height_limit: false
+  height_limit: 400
   word_wrap: false
 
   # Toolbar
   copy: true
   language: true
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
-  shrink: false
+  shrink: true
   fullpage: false
 
 # Social media links
